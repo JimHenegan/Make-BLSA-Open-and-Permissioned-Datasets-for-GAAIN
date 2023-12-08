@@ -20,7 +20,11 @@ root/
 └── readme.md
 ```   
 
-**Note** the `detailed-metadata.csv` was downloaded from the [BLSA-Explore-ME](https://mindset.umc.edu/blsa-explore-me) and contains some metadata for the variables related to the GAAIN project.
+**Notes**: 
+
+- the `detailed-metadata.csv` was downloaded from the [BLSA-Explore-ME](https://mindset.umc.edu/blsa-explore-me) and contains some metadata for the variables related to the GAAIN project.
+- the `make-gaain-open-and-permissioned.py` is the "main program" for the project.
+- the `gaain_helpers.py` file contains some "helper functions" that are used by the main program.
 
 ### Update the value of `path_to_sharing_data_csv_folder`
 
