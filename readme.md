@@ -19,7 +19,9 @@ root/
 │   └── make-gaain-open-and-permissioned.py
 └── readme.md
 ```   
- 
+
+**Note** the `detailed-metadata.csv` was downloaded from the [BLSA-Explore-ME](https://mindset.umc.edu/blsa-explore-me) and contains some metadata for the variables related to the GAAIN project.
+
 ### Update the value of `path_to_sharing_data_csv_folder`
 
 In the `make-gaain-open-and-permissioned.py` file, you'll find a variable called `path_to_sharing_data_csv_folder`.  
