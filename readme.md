@@ -4,9 +4,9 @@ This project contains code that can be used to make BLSA Open and Permissioned D
 
 ## How to use the project
 
-### Set up folder strucutre
+### Pull or download this repository
 
-Here is the recommended folder structure for the project:
+Here what the folder structure for the project should look like once you have pulled or downloaded the repository:
 
 ```
 root/
