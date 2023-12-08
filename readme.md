@@ -20,9 +20,9 @@ root/
 └── readme.md
 ```   
  
-### Update the value of `path_to_sharing_folder`
+### Update the value of `path_to_sharing_data_csv_folder`
 
-In the `make-gaain-open-and-permissioned.py` file, you'll find a variable called `path_to_sharing_folder`.  
+In the `make-gaain-open-and-permissioned.py` file, you'll find a variable called `path_to_sharing_data_csv_folder`.  
 
 #### If you have synced `4-Sharing` folder to your computer ...
 
@@ -31,16 +31,16 @@ If you have synced the `4-Sharing` folder that's on the [BLSA SPO site](https://
 For example:
 
 ```
-path_to_sharing_folder = "~/National Institutes of Health/NIA BLSA - 4-Sharing"
+path_to_sharing_data_csv_folder = "~/National Institutes of Health/NIA BLSA - 4-Sharing/data-csv"
 ```
 
 
 #### If you haven't  synced `4-Sharing` folder to your computer ...
 
-Alternatively, if you haven't synced the `4-Sharing` folder to your computer, then download the required datasets from the SPO site and point `path_to_sharing_folder` to the location of the downloaded datasets:
+Alternatively, if you haven't synced the `4-Sharing` folder to your computer, then download the required datasets from the SPO site and point `path_to_sharing_data_csv_folder` to the location of the downloaded datasets:
 
 ```
-path_to_sharing_folder = "path/to/downloaded/datasets"
+path_to_sharing_data_csv_folder = "path/to/downloaded/datasets"
 ```
 
 Here is a list of the datasets you'll have to download from [the `4-Sharing/data-csv` folder of the BLSA SPO site](https://nih.sharepoint.com/:f:/r/sites/NIA-BLSA/Data/4-Sharing/data-csv?csf=1&web=1&e=E0cF6Z):

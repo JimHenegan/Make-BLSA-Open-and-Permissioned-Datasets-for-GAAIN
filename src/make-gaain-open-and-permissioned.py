@@ -16,7 +16,7 @@ Make "open" and "permissioned" datasets for GAAIN
 # ------
 
 - detailed-metadata.csv : a CSV file of metadata downloaded from the BLSA-Explore-ME
-- path_to_sharing_folder : the path you use to access the "4-sharing" folder of BLSA Data 
+- path_to_sharing_data_csv_folder : the path you use to access the "4-sharing" folder of BLSA Data 
 
 # Main steps
 # ----------
@@ -37,9 +37,9 @@ Make "open" and "permissioned" datasets for GAAIN
 
 # Input
 path_to_detailed_metadata = "../data/input/detailed-metadata.csv" 
-path_to_sharing_folder = "YOUR_PATH_TO_SHARING_FOLDER" 
-path_to_der_cohort = f'{path_to_sharing_folder}/der_cohort.csv'
-path_to_der_cohort_id = f'{path_to_sharing_folder}/der_cohort_id.csv'
+path_to_sharing_data_csv_folder = "YOUR_PATH_TO_SHARING_DATA_CSV_FOLDER" 
+path_to_der_cohort = f'{path_to_sharing_data_csv_folder}/der_cohort.csv'
+path_to_der_cohort_id = f'{path_to_sharing_data_csv_folder}/der_cohort_id.csv'
 
 # Output
 path_to_open_gaain_dataset = "../data/output/gaain-open-dataframe.csv"
@@ -62,7 +62,7 @@ df_gaain_permissioned_cohort = make_df_gaain_permissioned_cohort(path_to_der_coh
 df_gaain_open_cohort = make_df_gaain_open_cohort(path_to_der_cohort_id)
 
 # Create df_base_gaain : a dataset containing the GAAIN variables (plus the real BLSA idno) for *all* BLSA participants
-df_base_gaain = make_df_base_gaain(path_to_der_cohort, df_metadata_gaain, path_to_sharing_folder)
+df_base_gaain = make_df_base_gaain(path_to_der_cohort, df_metadata_gaain, path_to_sharing_data_csv_folder)
 
 # Use the "cohorts" with df_base_gaain to make df_gaain_open and df_gaain_permissioned
 df_gaain_open = make_df_gaain_open(df_gaain_open_cohort, df_base_gaain)
