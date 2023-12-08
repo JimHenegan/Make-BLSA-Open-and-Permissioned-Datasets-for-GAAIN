@@ -43,7 +43,7 @@ Alternatively, if you haven't synced the `4-Sharing` folder to your computer, th
 path_to_sharing_folder = "path/to/downloaded/datasets"
 ```
 
-Here is a list of the datasets you'll have to download from the :
+Here is a list of the datasets you'll have to download from [the 4-Sharing/data-csv folder of the BLSA SPO site](https://nih.sharepoint.com/:f:/r/sites/NIA-BLSA/Data/4-Sharing/data-csv?csf=1&web=1&e=E0cF6Z):
 
 - `der_cohort`
 - `der_cohort_id`
