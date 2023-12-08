@@ -26,7 +26,7 @@ In the `make-gaain-open-and-permissioned.py` file, you'll find a variable called
 
 #### If you have synced `4-sharing` folder to your computer ...
 
-If you have synced the `4-sharing` folder that's on the BLSA SPO site to your computer, then update the value of this variable so that it points to the `4-sharing` folder on the BLSA SPO site from your computer.
+If you have synced the `4-sharing` folder that's on the [BLSA SPO site](https://nih.sharepoint.com/:f:/r/sites/NIA-BLSA/Data/4-Sharing?csf=1&web=1&e=mnNyd8) to your computer, then update the value of this variable so that it points to the `4-sharing` folder on the BLSA SPO site from your computer.
 
 For example:
 
