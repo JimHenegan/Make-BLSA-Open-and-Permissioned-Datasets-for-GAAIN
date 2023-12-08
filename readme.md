@@ -20,16 +20,49 @@ root/
 └── readme.md
 ```   
  
-### Update the path to the `4-sharing` folder
+### Update the value of `path_to_sharing_folder`
 
 In the `make-gaain-open-and-permissioned.py` file, you'll find a variable called `path_to_sharing_folder`.  
-Update the value of this variable so that it points to the `4-sharing` folder on the BLSA SPO site from your computer.
+
+#### If you have synced `4-sharing` folder to your computer ...
+
+If you have synced the `4-sharing` folder that's on the BLSA SPO site to your computer, then update the value of this variable so that it points to the `4-sharing` folder on the BLSA SPO site from your computer.
 
 For example:
 
 ```
 path_to_sharing_folder = "~/National Institutes of Health/NIA BLSA - 4-Share"
 ```
+
+
+#### If you haven't  synced `4-sharing` folder to your computer ...
+
+Alternatively, if you haven't synced the `4-sharing` folder to your computer, then download the required datasets from the SPO site and point `path_to_sharing_folder` to the location of the downloaded datasets:
+
+```
+path_to_sharing_folder = "path/to/downloaded/datasets"
+```
+
+Here is a list of the datasets you'll have to download from the :
+
+- `der_cohort`
+- `der_cohort_id`
+- `der_demographics`
+- `der_anthropometry`
+- `der_physicalfunction`
+- `der_physicalperformance`
+- `der_cognition`
+- `der_medicalhx`
+- `crbsh_blsaapoe`
+- `crbsh_bvr`
+- `crbsh_cardrot`
+- `crbsh_cvl`
+- `crbsh_digitspan`
+- `crbsh_mms`
+- `crbsh_neubos`
+- `crbsh_neuflu`
+- `crbsh_neutrails`
+
 
 ### Run the main program
 
